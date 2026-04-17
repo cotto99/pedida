@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center px-8 relative overflow-hidden"
-    style="background: linear-gradient(160deg, #fdf8f0 0%, #faf3e8 50%, #f5ece0 100%);">
+    >
 
     <!-- Pétalos siempre presentes -->
     <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -68,8 +68,8 @@
             </div>
 
             <h2 class="text-4xl font-light leading-snug" style="color: #3d2c1e; font-family: 'Playfair Display', serif;">
-              ¿Quieres ser<br/>
-              <em style="color: #c9803a;">mi esposa?</em>
+              ¿Te quieres casar<br/>
+              <em style="color: #c9803a;">Conmigo?</em>
             </h2>
           </div>
 

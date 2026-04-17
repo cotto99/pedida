@@ -1,7 +1,7 @@
 <template>
     <div
       class="min-h-screen flex items-center justify-center px-6 py-12 relative overflow-hidden"
-      style="background: linear-gradient(160deg, #fdf8f0 0%, #faf3e8 50%, #f5ece0 100%);"
+      
     >
   
       <!-- Pétalos de fondo -->
@@ -99,9 +99,11 @@
             <div class="flex justify-center mt-6">
               <div class="w-16 h-16 rounded-full flex items-center justify-center text-2xl border-2"
                 style="border-color: #d4a843; background: rgba(212,168,67,0.08);">
-                💍
+                ✦
               </div>
             </div>
+
+            
   
             <!-- Botón -->
             <div class="flex justify-center mt-8">

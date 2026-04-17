@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center px-8 py-16 relative overflow-hidden"
-    style="background: linear-gradient(160deg, #fdf8f0 0%, #faf3e8 50%, #f5ece0 100%);">
+    >
 
     <!-- Pétalos suaves de fondo -->
     <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -73,7 +73,8 @@ const questions = [
       { id: 'a', label: 'Nuestra primera cita' },
       { id: 'b', label: 'Un viaje juntos' },
       { id: 'c', label: 'Una noche en casa viendo películas' },
-      { id: 'd', label: 'Cuando me cuidaste cuando estaba enfermo/a' },
+      { id: 'd', label: 'Cuando me consientes como tu princesa' },
+      { id: 'e', label: 'Todas nuestras citas' },
     ]
   },
   {
@@ -88,7 +89,7 @@ const questions = [
     text: '¿Cómo describirías nuestra conexión?',
     subtitle: 'Elige la que más resuene contigo',
     options: [
-      { id: 'a', label: 'Somos mejores amigos que se aman' },
+      { id: 'a', label: 'Conectamos desde el día Cero' },
       { id: 'b', label: 'Nos complementamos perfectamente' },
       { id: 'c', label: 'Tenemos una conexión única e inexplicable' },
       { id: 'd', label: 'Crecemos juntos cada día' },
@@ -100,10 +101,10 @@ const questions = [
     text: '¿Cuál de estos momentos fue más especial para ti?',
     subtitle: 'Toca la imagen para seleccionar',
     options: [
-      { id: 'a', label: 'Momento 1', image: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=400&q=80' },
-      { id: 'b', label: 'Momento 2', image: 'https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=400&q=80' },
-      { id: 'c', label: 'Momento 3', image: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&q=80' },
-      { id: 'd', label: 'Momento 4', image: 'https://images.unsplash.com/photo-1501901609772-df0848060b33?w=400&q=80' },
+    { id: 'a', label: 'Graduación', image: '/images/foto1.jpeg' },
+    { id: 'b', label: 'Navidad Juntos', image: '/images/foto2.jpeg' },
+    { id: 'c', label: 'Compra de nuestro terreno', image: '/images/foto3.jpeg' },
+    { id: 'd', label: 'Primera Boda juntos', image: '/images/foto4.jpeg' },
     ]
   },
   {
